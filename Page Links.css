@@ -1,0 +1,25 @@
+@charset "utf-8";
+#nav_bar {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+#nav_bar2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+ul li a {
+    text-align: center;
+    text-decoration: underline;
+    border: thin inset #FFFFFF;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-color: #FFFFFF;
+}

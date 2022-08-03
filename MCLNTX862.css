@@ -1,0 +1,137 @@
+@charset "utf-8";
+body h1 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+body h2 {
+	color: #FFFFFF;
+    font-weight: bold;
+}
+
+.NTX862 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: left;
+}
+
+body nav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: xx-large;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #FFFFFF;
+    font-variant: small-caps;
+    font-weight: bold;
+	font-size: x-large;
+}
+
+#Page p {
+    text-align: center;
+    color: #FFFFFF;
+    font-variant: small-caps;
+    font-weight: bold;
+	font-size: x-large;
+}
+
+#Page1 p {
+    text-align: center;
+    color: #FFFFFF;
+    font-variant: small-caps;
+    font-weight: bold;
+	font-size: x-large;
+}
+
+
+tbody tr td {
+    color: #FFFFFF;
+	text-align: center;
+}
+
+#leftcolumn {
+    color: #FFFFFF;
+    border-style: ridge;
+    border-width: thick;
+    margin-right: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    right: 123px;
+    float: left;
+}
+#Container #leftcolumn h2 {
+    text-align: center;
+}
+
+
+#rightcolumn article h2 {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+#rightcolumn article map {
+    text-align: center;
+}
+
+.map {
+	float: right!important;
+}
+#rightcolumn {
+    margin-left: 0px;
+    float: right;
+    padding-bottom: 0px;
+}
+#Container #leftcolumn #register {
+    font-weight: bold;
+    font-size: large;
+    font-variant: small-caps;
+}
+
+#help h2 {
+    color: #FFFFFF;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#help p {
+    color: #FFFFFF;
+    text-align: justify;
+    font-size: x-large;
+}
+body p {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+body footer {
+    color: #FFFFFF;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 2rem;
+	text-align: center;
+}
+

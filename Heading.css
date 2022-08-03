@@ -1,0 +1,168 @@
+@charset "utf-8";
+}
+body p {
+    font-family: SansSerif, serif;
+    font-weight: normal;
+    font-size: large;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+footer {
+    font-family: SansSerif, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+body form label {
+	font-size: 15pt;
+	font-weight: normal;
+}
+body form {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    background-image: url(background.png);
+    border-style: double;
+    border-width: thick;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#Name {
+}
+
+#Complete {
+	display: flex;
+	float: left;
+	padding-left: 1px;
+	padding-right: 0px;
+
+}
+#Complete #reset {
+	width: 100px;
+	height: 50px;
+	margin-left: 250px;
+}
+#Complete #submit {
+	width: 100px;
+	height: 50px;
+	margin-left: 200px;
+}
+
+#Donate {
+	justify-content: flex-end;
+	padding-right: 50px;
+
+#Donate #Map {
+	background-image: url(Flag&Emblem.PNG);
+	width: 75px;
+	height: 75px;
+	margin-left: 11px;
+}
+#Donate #Facebook {
+	background-image: url(Calendar%20of%20Events%20Image.PNG);
+	width: 75px;
+	height: 75px;
+	margin-left: 10px;
+}
+#Mixer {
+	justify-content: center;
+}
+#MCLBall  {
+	justify-content: center;
+
+}
+
+#Wrestling {
+	justify-content: center;
+}
+
+#Applicationbutton  {
+	width: 150px;
+	height: 50px;
+	justify-content: center;
+}
+#Application {
+	justify-content: center;
+}
+#content #intro #Support {
+	justify-content: center;
+}
+body {
+    background-image: url(images/Background.jpg);
+    background-size: contain;
+    color: #FFFFFF;
+}
+#nav_bar {
+}
+li {
+    float: left;
+    padding: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+
+
+
+.float {
+}
+.style.css {
+}
+.USMC {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: left;
+}
+.NTX862 {
+    display: block;
+    float: left;
+    clear: left;
+}
+.DD214 {
+    display: block;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Auxiliary {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: left;
+}
+.Life {
+    margin-left: auto;
+    display: block;
+    float: left;
+}
+.paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: right;
+}
+.USN {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: left;
+}
+.Membership {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.League {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline;
+}
+#register p #comments {
+}

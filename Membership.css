@@ -1,6 +1,6 @@
 @charset "utf-8";
-.background {
 
+.background {
 }
 
 body h1 {
@@ -49,7 +49,7 @@ body h2 {
 }
 
 body h3 {
-    text-align: left;
+    text-align: center;
     text-decoration: underline;
     font-weight: bold;
     font-size: 2rem;
@@ -143,46 +143,97 @@ body footer {
 	text-align: center;
 }
 
-tbody tr td p{
+tbody tr td {
     color: #FFFFFF;
-    text-align: justify;
-	text-align-last: center;
-    display: block;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     font-variant: small-caps;
-    font-weight: bold;
-    font-size: large;
-	padding-left: 50px;
-	padding-right: 50px;
+    font-size: 3rem;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 	
 Website{
     font-variant: small-caps;
-    font-weight: bold;
-    font-size: xx-large;
+    font-size: 3rem;
     color: #ffffff;
     text-align: center;
+	float: right;
 }
 
 button {
     background: #787878;
     color: #ffffff;
     border: thick ridge #FFFFFF;
-    text-align: center;
+	text-align: center;
+    align-content: center;
 }
 
 body p {
     text-align: center;
 }
+
 tbody tr th {
     margin-left: auto;
     margin-right: auto;
     display: block;
     float: left;
-    margin-top: auto;
-    margin-bottom: auto;
     font-variant: small-caps;
-    font-weight: bold;
-    font-size: x-large;
+    font-size: 3rem;
+    background: #787878;
+    color: #ffffff;
+    border: thick ridge #FFFFFF;
 }
+
+tbody tr .leftcolumn {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: left;
+	padding-left: 50px;
+	padding-right: 50px;
+    background: #787878;
+    color: #ffffff;
+    border: thick ridge #FFFFFF;
+}
+
+tbody tr .rightcolumn {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: right;
+	padding-left: 50px;
+	padding-right: 50px;
+    background: #787878;
+    color: #ffffff;
+    border: thick ridge #FFFFFF;
+}
+
+.container {
+    font-variant: small-caps;
+    font-size: xx-large;
+    color: #ffffff;
+    text-align: center;
+    background: #787878;
+    border: thick ridge #FFFFFF;
+}
+
+.container2 {
+    font-variant: small-caps;
+    font-size: 3rem;
+    color: #ffffff;
+    text-align: center;
+    background: #787878;
+    border: thick ridge #FFFFFF;
+}
+
+.container3 {
+    font-variant: small-caps;
+    font-size: xx-large;
+    color: #ffffff;
+    align-content: center;
+    background: #787878;
+    border: thick ridge #FFFFFF;
+}
+

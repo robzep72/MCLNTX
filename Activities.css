@@ -73,43 +73,7 @@ body h4 {
 	align-content: justify;
 }
 
-.USMC {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    float: left;
-	align-content: center;
-}
-
-.USN {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    float: left;
-	align-content: center;
-}
-
-.DD214 {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    float: left;
-	align-content: center;
-}
-
-.Auxiliary {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    float: left;
-	align-content: center;
-}
-
-.Life {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    float: left;
+iframe {
 	align-content: center;
 }
 
@@ -135,6 +99,12 @@ p {
 	font-size: xx-large;
 }
 
+tbody tr td {
+    color: #FFFFFF;
+	text-align: center;
+
+}
+
 body footer {
     color: #FFFFFF;
     font-variant: small-caps;
@@ -143,111 +113,6 @@ body footer {
 	text-align: center;
 }
 
-tbody tr td {
-    color: #FFFFFF;
-	text-align: center;
-
-}
-
-.container {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: serif, sans-serif;
-	font-size: 62.5%;
-	width: 100%;
-	height: 100vh;
-	background-color: #FFFFFF;
-	color: blue;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 .calendar {
-	width: 45rem;
-	height: 52rem;
-	background-color: #787878;
-	box-shadow: 0 0.5rem 3rem rgba(0,0,0,.4);
-}
-
-.month {
-	width: 100%;
-	height: 12rem;
-	background-color: #ffffff;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 0 2rem;
-	text-align: center;
-		text-shadow: 0 .3rem .5rem rgba(0,0,0,.5);
-}
-
-.month i {
-	font-size: 2.5rem;
-	cursor: pointer;
-}
-
-.month h1{
-	font-size: 3rem;
-	font-weight: 400;
-	text-transform: uppercase;
-	letter-spacing: .2rem;
-	margin-bottom: 1rem;
-}
-
-.month p {
-	font-size: 1.6rem;
-}
-
-.wewkdays {
-	width: 100%;
-	height: 5rem;
-	padding: 0 0.4rem;
-	display: flex;
-	align-items: center;
-	}
-
-.weedkays div {
-	font-size: 1.5rem;
-	font-weight: 400;
-	letter-spacing: 0.1rem;
-	width: calc(44.2rem / 7);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,.5);
-}
-
-.days {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	padding: 0.2rem;
-}
-
-.days div {
-	font-size: 1.4rem;
-	margin: 0.3rem;
-	width: calc(40.2rem / 7);
-	height: 5rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,.5);
-	transition: background-color 0.2s;
-}
-
-.days div:hover:not(.today){
-	background-color: #787878;
-	border: .2rem solid #000000;
-	cursor: pointer;
-}
-.prev-date,
-.next-date {
-	opacity: .5;
-}
-
-.today {
-	background-color: #2CE7F0;
+    text-align: center;
 }

@@ -52,7 +52,7 @@ p {
 	font-size: x-large;
 }
 
-#Page1 p {
+#Page p {
     text-align: center;
     color: #FFFFFF;
     font-variant: small-caps;
@@ -87,11 +87,13 @@ body footer {
 }
 
 .container {
-	overflow: hidden;
-	height: 800px;
-	width: 1200px;
-	margin-left: 360px;
-	maring-top: 20px;
+    overflow: hidden;
+    height: 800px;
+    width: 1200px;
+    margin-left: 360px;
+    maring-top: 20px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 @-webkit-keyframes slide_animation {
@@ -114,7 +116,7 @@ body footer {
 	margin: 0 0 0 -2400px;
 	position: relative;
 	-webkit-animation-name: slide-animation;
-	-webkit-animation-duration: 10s;
+	-webkit-animation-duration: 33s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-direction: alternate;
 	-webkit-animation-play-state: running;
@@ -126,4 +128,3 @@ body footer {
 	position: relative;
 	float: left;
 }
-

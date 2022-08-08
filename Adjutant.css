@@ -108,7 +108,9 @@ button {
     background: #787878;
     color: #ffffff;
     border: thick ridge #FFFFFF;
-    text-align: center;
+    font-variant: small-caps;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 #page2 {

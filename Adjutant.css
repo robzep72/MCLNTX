@@ -1,9 +1,4 @@
 @charset "utf-8";
-.background {
-	margin-left: 0px;
-	margin-right: 0px;
-	width: auto;
-}
 
 .NTX862 {
     margin-left: auto;
@@ -39,15 +34,14 @@ body nav {
     text-align: center;
 }
 
-body nav2 {
-    margin-left: auto;
-    margin-right: auto;
+.Members tr td {
+	text-align: center;
+	font-size: xx-large;
     color: #FFFFFF;
-    font-variant: small-caps;
-    font-weight: bold;
-    font-size: xx-large;
-    text-align: center;
-    display: block;
+    border-style: ridge;
+    border-width: thick;
+    background-color: #000000;
+    border: thick ridge #FFFFFF;
 }
 
 body h2 {
@@ -129,3 +123,18 @@ body footer {
 	text-align: center;
 }
 
+#accordion1 .card {
+    text-align: center;
+    color: #FFFFFF;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: x-large;
+    background-image: -webkit-linear-gradient(270deg,rgba(120,120,120,1.00) 0%,rgba(120,120,120,1.00) 100%,rgba(255,0,0,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(120,120,120,1.00) 0%,rgba(120,120,120,1.00) 100%,rgba(255,0,0,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(120,120,120,1.00) 0%,rgba(120,120,120,1.00) 100%,rgba(255,0,0,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(120,120,120,1.00) 0%,rgba(120,120,120,1.00) 100%,rgba(255,0,0,1.00) 100%);
+    background-color: #FFFFFF;
+    border: thick ridge #FFFFFF;
+    margin-left: 50px;
+    margin-right: 50px;
+}

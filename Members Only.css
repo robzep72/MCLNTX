@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+body h1 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+body h2 {
+    color: #FFFFFF;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.NTX862 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: left;
+}
+
+body nav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: xx-large;
+    text-align: center;
+}
+
+body nav2 {
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    display: block;
+}
+
+body h3 {
+    text-align: center;
+    color: #FFFFFF;
+    font-variant: small-caps;
+    font-weight: bold;
+	font-size: 2rem;
+	text-decoration: underline;
+}
+
+.General tr td {
+	text-align: center;
+	font-size: xx-large;
+    color: #FFFFFF;
+    border-style: ridge;
+    border-width: thick;
+    background-color: #787878;
+    border: thick ridge #FFFFFF;
+}
+
+.Members tr td {
+	text-align: center;
+	font-size: xx-large;
+    color: #FFFFFF;
+    border-style: ridge;
+    border-width: thick;
+    background-color: #787878;
+    border: thick ridge #FFFFFF;
+}
+
+#Page1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-variant: small-caps;
+    font-weight: bold;
+	font-size: x-large;
+}
+
+body p {
+    text-align: center;
+    color: #FFFFFF;
+    font-variant: small-caps;
+    font-weight: bold;
+	font-size: x-large;
+}
+
+
+body footer {
+    color: #FFFFFF;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 2rem;
+	text-align: center;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(pic-1.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.form-box {
+	width: 500px;
+	background: rgb(0,0,0,0.8);
+	maring: 12% auto;
+	padding: 50px 0;
+	color: #fff;
+	box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.input-box {
+	margin: 31px auto;
+	width: 80%;
+	border-bottom: 1px solid #fff;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.input-box input {
+	width: 90%;
+	border: none;
+	outline: none;
+	background: transparent;
+	color: #fff;
+}
+
+::placeholder {
+	 oolor: #ccc;
+}
+
+.fa {
+	margin-right: 10px;
+}
+
+.eye {
+	position: absolute;
+}
+
+#hide1 {
+	display: none;
+}
+
+.login-btn {
+	margin: 40px auto 20px;
+	width: 80px;
+	display: block;
+	outline: none;
+	padding: 10px 0;
+	border: 1px solid #fff;
+	cursor: pointer;
+	background: transparent;
+	color: #fff;
+	font-size: 16px;
+}

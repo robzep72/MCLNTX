@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Members Login Page</title>
+<link href="Members Only Login.css" rel="stylesheet" type="text/css">
+<link href="Website.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<table width="1250">
+  <tbody>
+    <tr>
+      <th scope="row"><img src="images/NTX862.PNG" width="300" height="300" class="NTX862" align="center" alt="MCL NTX #862"/></th>
+      <td><h1>Marine Corps League</h1>
+	  <h1>North Texas Detachment #862</h1></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+	<nav>
+		<a href="index.html" title="MCL NTX #862" target="_self">Home</a>&nbsp;&nbsp;&nbsp;
+		<a href="About Us.html">About Us</a>&nbsp;&nbsp;&nbsp;
+		<a href="League Information.html">League Information</a>&nbsp;&nbsp;&nbsp;
+   		<a href="Toys For Tots.html">Toys For Tots</a>&nbsp;&nbsp;&nbsp;
+		<a href="Contact Us.html">Contact Us</a>&nbsp;&nbsp;&nbsp;
+ 		<a href="Shop.html">Shop</a>&nbsp;&nbsp;&nbsp;
+		<a href="Gallery.html">Gallery</a>
+	</nav>	
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1>Members Only Login</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+	<div class="form" align="center">
+	<div class="form-box">
+	<h1>Member Login</h1>
+		<div class="input-box">
+			<i class="fa-solid fa-at"></i>
+			<i class="fa-solid fa-envelope"></i>
+			<input type="email" placeholder="Email ID">
+		</div>
+		<div class="input-box">
+			<i class="fa-solid fa-key"></i>
+			<input type="password" placeholder="password" id="myInput">
+			<span class="eye" onclick="myfunction()">
+				<i id="hide1" class="fa-solid fa-eye"></i>
+				<i id="hide2" class="fa-solid fa-eye-slash"></i>
+			</span>
+		</div>
+		<button type="button" class="login-btn">Login</button>
+	</div>
+	</div>
+	<script>
+			function myfunction() {
+				var x = document.getElementById("myInput")
+				var y = document.getElementById("hide1")
+				var z = document.getElementById("hide2")
+				
+				if(x.type === 'password') {
+					x.type = "text";
+					y.style.display = "block";
+					z.style.display = "none";
+				}
+				
+				else {
+					x.type = "password";
+					y.style.display = "none";
+					z.style.display = "block";
+				}
+			}
+	</script>
+<br>
+<br>
+<br>
+<div id="Page1">
+	<p><a href="#top"><strong>Back to Top</strong></a></p>
+</div>
+<br>
+<br>
+<br>
+		<p class="align-content-center"><strong>Want more information? Email us at:</strong><br><br>
+		<a href="commandant@ntxmarines.org/">commandant@ntxmarines.org/</a><br>or<br><a href="paymaster@ntxmarines.org/">Paymaster@ntxmarines.org/</a></p>
+<br>
+<br>
+<footer>
+	<span id="footer">&copy; 2022 Marine Corps League North Texas Detachment #862</span></footer>
+</body>
+</html>

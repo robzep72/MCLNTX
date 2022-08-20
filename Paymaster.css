@@ -1,8 +1,5 @@
 @charset "utf-8";
 
-.background {
-}
-
 body h1 {
     color: #FFFFFF;
     font-weight: bolder;
@@ -29,15 +26,14 @@ body nav {
     text-align: center;
 }
 
-body nav2 {
-    margin-left: auto;
-    margin-right: auto;
+.Members tr td {
+	text-align: center;
+	font-size: xx-large;
     color: #FFFFFF;
-    font-variant: small-caps;
-    font-weight: bold;
-    font-size: xx-large;
-    text-align: center;
-    display: block;
+    border-style: ridge;
+    border-width: thick;
+    background-color: #000000;
+    border: thick ridge #FFFFFF;
 }
 
 body h2 {
@@ -72,12 +68,15 @@ body h4 {
 	align-content: justify;
 }
 
-p {
-    color: #FFFFFF;
-    text-align: center;
+button {
+    background: #787878;
+    color: #ffffff;
+    border: thick ridge #FFFFFF;
     font-variant: small-caps;
-	font-weight: bold;
     font-size: x-large;
+    font-weight: bold;
+	align-content: center;
+	text-align: center;
 }
 
 #page {
@@ -95,37 +94,13 @@ p {
     font-weight: bold;
 	font-size: x-large;
 }
-	
-#page2 {
-    text-align: center;
-    color: #FFFFFF;
-    font-variant: small-caps;
-    font-weight: bold;
-	font-size: x-large;
-}
 
-#page3 {
-    text-align: center;
+p {
     color: #FFFFFF;
-    font-variant: small-caps;
-    font-weight: bold;
-	font-size: xx-large;
-}
-
-#page4 {
     text-align: center;
-    color: #FFFFFF;
     font-variant: small-caps;
-    font-weight: bold;
-	font-size: x-large;
-}
-
-#page5 {
-    text-align: center;
-    color: #FFFFFF;
-    font-variant: small-caps;
-    font-weight: bold;
-	font-size: x-large;
+	font-weight: bold;
+    font-size: x-large;
 }
 
 body footer {
@@ -134,30 +109,6 @@ body footer {
     font-weight: bold;
     font-size: 2rem;
 	text-align: center;
-}
-
-tbody tr td {
-    color: #FFFFFF;
-	text-align: center;
-}
-
-button {
-    background: #787878;
-    color: #ffffff;
-    border: thick ridge #FFFFFF;
-    font-variant: small-caps;
-    font-size: x-large;
-    font-weight: bold;
-}
-
-#2021 p {
-	text-align: center;
-	color: #ffffff;
-}
-
-#2022 p {
-	text-align: center;
-	color: #ffffff;
 }
 
 #accordion1 .card {
@@ -170,7 +121,6 @@ button {
     background-image: -moz-linear-gradient(270deg,rgba(120,120,120,1.00) 0%,rgba(120,120,120,1.00) 100%,rgba(255,0,0,1.00) 100%);
     background-image: -o-linear-gradient(270deg,rgba(120,120,120,1.00) 0%,rgba(120,120,120,1.00) 100%,rgba(255,0,0,1.00) 100%);
     background-image: linear-gradient(180deg,rgba(120,120,120,1.00) 0%,rgba(120,120,120,1.00) 100%,rgba(255,0,0,1.00) 100%);
-    background-color: #FFFFFF;
     border: thick ridge #FFFFFF;
 }
 

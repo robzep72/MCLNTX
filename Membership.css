@@ -1,34 +1,5 @@
 @charset "utf-8";
 
-.background {
-}
-
-body h1 {
-    color: #FFFFFF;
-    font-weight: bolder;
-    font-size: 3em;
-    text-align: center;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-}
-
-body nav {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    color: #FFFFFF;
-    font-weight: bold;
-    font-variant: small-caps;
-    font-size: xx-large;
-    text-align: center;
-}
-
 body nav2 {
     margin-left: auto;
     margin-right: auto;
@@ -38,39 +9,6 @@ body nav2 {
     font-size: xx-large;
     text-align: center;
     display: block;
-}
-
-body h2 {
-    color: #FFFFFF;
-    font-variant: normal;
-    font-weight: bold;
-    font-size: 3rem;
-    text-align: center;
-}
-
-body h3 {
-    text-align: center;
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 2rem;
-    color: #FFFFFF;
-    font-variant: small-caps;
-}
-
-body h4 {
-    font-weight: bold;
-    font-size: x-large;
-    text-align: center;
-    text-decoration: underline;
-    color: #FFFFFF;
-}
-
-.NTX862 {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    float: left;
-	align-content: justify;
 }
 
 .USMC {
@@ -119,22 +57,6 @@ p {
     font-size: x-large;
 }
 
-#page {
-    text-align: center;
-    color: #FFFFFF;
-    font-variant: small-caps;
-    font-weight: bold;
-	font-size: x-large;
-}
-
-#page1 {
-    text-align: center;
-    color: #FFFFFF;
-    font-variant: small-caps;
-    font-weight: bold;
-	font-size: x-large;
-}
-
 body footer {
     color: #FFFFFF;
     font-variant: small-caps;
@@ -145,13 +67,11 @@ body footer {
 
 tbody tr td {
     color: #FFFFFF;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: left;
     font-variant: small-caps;
-    font-size: 3rem;
+    font-size: xx-large;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 150px;
 }
 	
 Website{
@@ -159,11 +79,10 @@ Website{
     font-size: 3rem;
     color: #ffffff;
     text-align: center;
-	float: right;
 }
 
 button {
-    background: #787878;
+    background: #000000;
     color: #ffffff;
     border: thick ridge #FFFFFF;
 	text-align: center;
@@ -195,10 +114,11 @@ tbody tr .rightcolumn {
     font-variant: small-caps;
     font-size: xx-large;
     color: #ffffff;
-    text-align: center;
+    text-align: left;
     background: #787878;
     border: thick ridge #FFFFFF;
-	width: 1250px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 .container2 {
@@ -208,16 +128,18 @@ tbody tr .rightcolumn {
     text-align: center;
     background: #787878;
     border: thick ridge #FFFFFF;
-	width: 1250px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 .container3 {
     font-variant: small-caps;
-    font-size: xx-large;
+    font-size: 3 rem;
     color: #ffffff;
     align-content: center;
     background: #787878;
     border: thick ridge #FFFFFF;
-	width: 1250px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 

@@ -1,44 +1,5 @@
 @charset "utf-8";
 
-.NTX862 {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    float: left;
-}
-
-body h1 {
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-}
-
-body h2 {
-	color: #FFFFFF;
-    font-weight: bold;
-}
-
-body nav {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    float: center;
-    color: #FFFFFF;
-    font-weight: bold;
-    font-variant: small-caps;
-    font-size: xx-large;
-    text-align: center;
-}
-
 .img {
     align-content: flex-start;
     display: block;
@@ -58,36 +19,6 @@ body p {
     color: #FFFFFF;
 }
 
-#Page1 p {
-    text-align: center;
-    color: #FFFFFF;
-    font-variant: small-caps;
-    font-weight: bold;
-	font-size: x-large;
-}
-
-#help h2 {
-    color: #FFFFFF;
-    font-variant: small-caps;
-    font-weight: bold;
-    font-size: xx-large;
-    text-align: center;
-}
-
-#help p {
-    color: #FFFFFF;
-    text-align: justify;
-    font-size: x-large;
-}
-
-body footer {
-    color: #FFFFFF;
-    font-variant: small-caps;
-    font-weight: bold;
-    font-size: 2rem;
-	text-align: center;
-}
-
 body h3 {
 	display: block;
 	text-align: center;
@@ -105,17 +36,28 @@ Website{
 }
 
 button {
-    background: #787878;
+    background: #000000;
     color: #ffffff;
     border: thick ridge #FFFFFF;
     text-align: center;
 }
 
-body footer {
+table tbody th {
     color: #FFFFFF;
-    font-variant: small-caps;
-    font-weight: bold;
-    font-size: 2rem;
-	text-align: center;
+    font-size: large;
+    border: thick ridge #FFFFFF;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+tbody th h2 {
+    color: #FFFFFF;
+    font-size: xx-large;
+	background-color: #787878;
+}
+
+tbody th h3 {
+    color: #FFFFFF;
+    font-size: x-large;
 }
 

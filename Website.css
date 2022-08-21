@@ -117,8 +117,9 @@ body h4 {
 
 #help p {
     color: #FFFFFF;
-    text-align: justify;
+    text-align: left;
     font-size: x-large;
+	margin: 50px;
 }
 
 body footer {

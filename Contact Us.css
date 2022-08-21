@@ -13,18 +13,10 @@ p {
     border-style: ridge;
     border-width: thick;
     padding: 30px;
-    right: -600px;
     float: left;
 }
 
-#Container #leftcolumn h2 {
-    text-align: center;
-}
-
 #rightcolumn article h2 {
-    font-variant: small-caps;
-    font-weight: bold;
-    font-size: large;
     text-align: center;
 }
 
@@ -32,15 +24,19 @@ p {
     text-align: center;
 }
 
-.map {
-	float: right!important;
+#rightcolumn {
+    color: #FFFFFF;
+    border-style: ridge;
+    border-width: thick;
+    padding: 30px;
+    float: right;
 }
 
-#rightcolumn {
-    margin-left: 0px;
-    float: right;
-    padding-bottom: 0px;
+.map {
+	float: right!important;
+	align-content: center;
 }
+
 
 #Container #leftcolumn #register {
     font-weight: bold;
@@ -53,3 +49,21 @@ body p {
     color: #FFFFFF;
 }
 
+tr th h2 {
+	font-size: xx-large;
+    font-variant: small-caps;
+    color: #FFFFFF;
+}
+
+td article h2 {
+	font-size: 2rem;
+    font-variant: small-caps;
+    color: #FFFFFF;
+}
+
+tr th h2 {
+	color: #FFFFFF;
+    border-style: ridge;
+    border-width: thick;
+	background: #000000;
+}

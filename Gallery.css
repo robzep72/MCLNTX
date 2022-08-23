@@ -110,13 +110,49 @@ body footer {
 	100%{left:0px;}
 }
 
-.gallery {
+.mclgallery {
+    border-style: ridge;
+    border-width: thick;
+    background-color: #787878;
+    border: thick ridge #FFFFFF;
 	width: 3600px;
 	height: 800px;
 	margin: 0 0 0 -2400px;
 	position: relative;
 	-webkit-animation-name: slide-animation;
-	-webkit-animation-duration: 33s;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-play-state: running;
+}
+
+.toysgallery {
+    border-style: ridge;
+    border-width: thick;
+    background-color: #787878;
+    border: thick ridge #FFFFFF;
+	width: 3600px;
+	height: 800px;
+	margin: 0 0 0 -2400px;
+	position: relative;
+	-webkit-animation-name: slide-animation;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-play-state: running;
+}
+
+.usmcgallery {
+    border-style: ridge;
+    border-width: thick;
+    background-color: #787878;
+    border: thick ridge #FFFFFF;
+	width: 3600px;
+	height: 800px;
+	margin: 0 0 0 -2400px;
+	position: relative;
+	-webkit-animation-name: slide-animation;
+	-webkit-animation-duration: 10s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-direction: alternate;
 	-webkit-animation-play-state: running;
@@ -127,4 +163,35 @@ body footer {
 	width: 1200px;
 	position: relative;
 	float: left;
+}
+
+#sidebar #Accordion1 .ui-helper-reset.ui-state-default.ui-state-active {
+    border-style: ridge;
+    border-width: thick;
+    background-color: #000000;
+    border: thick ridge #FFFFFF;
+}
+
+#mclgallery img:hover {
+    width: 300px;
+    height: 300px;
+    top: 50px;
+    left: 10px;
+    z-index: 99;
+}
+
+#toysgallery img:hover {
+    width: 300px;
+    height: 300px;
+    top: 50px;
+    left: 10px;
+    z-index: 99;
+}
+
+#usmcgallery img:hover {
+    width: 300px;
+    height: 300px;
+    top: 50px;
+    left: 10px;
+    z-index: 99;
 }

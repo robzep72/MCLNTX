@@ -68,20 +68,6 @@ body h4 {
     color: #FFFFFF;
 }
 
-#accordion1 .card {
-    text-align: center;
-    color: #FFFFFF;
-    font-variant: small-caps;
-    font-weight: bold;
-    font-size: xx-large;
-    background-image: -webkit-linear-gradient(270deg,rgba(120,120,120,1.00) 0%,rgba(120,120,120,1.00) 100%,rgba(255,0,0,1.00) 100%);
-    background-image: -moz-linear-gradient(270deg,rgba(120,120,120,1.00) 0%,rgba(120,120,120,1.00) 100%,rgba(255,0,0,1.00) 100%);
-    background-image: -o-linear-gradient(270deg,rgba(120,120,120,1.00) 0%,rgba(120,120,120,1.00) 100%,rgba(255,0,0,1.00) 100%);
-    background-image: linear-gradient(180deg,rgba(120,120,120,1.00) 0%,rgba(120,120,120,1.00) 100%,rgba(255,0,0,1.00) 100%);
-    background-color: #FFFFFF;
-    border: thick ridge #FFFFFF;
-}
-
 p {
     text-align: center;
     color: #FFFFFF;
@@ -128,13 +114,21 @@ body footer {
     color: #FFFFFF;
     font-variant: small-caps;
     font-weight: bold;
-    font-size: x-large;
-    background-image: -webkit-linear-gradient(270deg,rgba(120,120,120,1.00) 0%,rgba(120,120,120,1.00) 100%,rgba(255,0,0,1.00) 100%);
-    background-image: -moz-linear-gradient(270deg,rgba(120,120,120,1.00) 0%,rgba(120,120,120,1.00) 100%,rgba(255,0,0,1.00) 100%);
-    background-image: -o-linear-gradient(270deg,rgba(120,120,120,1.00) 0%,rgba(120,120,120,1.00) 100%,rgba(255,0,0,1.00) 100%);
-    background-image: linear-gradient(180deg,rgba(120,120,120,1.00) 0%,rgba(120,120,120,1.00) 100%,rgba(255,0,0,1.00) 100%);
-    background-color: #FFFFFF;
+    font-size: xx-large;
     border: thick ridge #FFFFFF;
-    margin-left: 50px;
-    margin-right: 50px;
+	background-color: #0056B3;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#accordion1 .card {
+    text-align: center;
+    color: #FFFFFF;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: x-large;
+    border: thick ridge #FFFFFF;
+	background-color: #0056B3;
+    margin-left: 200px;
+    margin-right: 200px;
 }

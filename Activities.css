@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-.General tr td {
+.General tr td a {
 	text-align: center;
 	font-size: xx-large;
     color: #FFFFFF;
@@ -8,6 +8,21 @@
     border-width: thick;
     background-color: #000000;
     border: thick ridge #FFFFFF;
+    margin-left: 100px;
+	margin-right: 0px;	
+}
+
+button {
+    background: #000000;
+    color: #ffffff;
+    border: thick ridge #FFFFFF;
+    font-variant: small-caps;
+    font-size: x-large;
+    font-weight: bold;
+	align-content: center;
+	text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 iframe {

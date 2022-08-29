@@ -34,16 +34,6 @@ body nav {
     text-align: center;
 }
 
-.Members tr td {
-	text-align: center;
-	font-size: xx-large;
-    color: #FFFFFF;
-    border-style: ridge;
-    border-width: thick;
-    background-color: #000000;
-    border: thick ridge #FFFFFF;
-}
-
 body h2 {
     color: #FFFFFF;
     font-variant: normal;
@@ -84,15 +74,6 @@ p {
 	font-size: xx-large;
 }
 
-button {
-    background: #000000;
-    color: #ffffff;
-    border: thick ridge #FFFFFF;
-    font-variant: small-caps;
-    font-size: x-large;
-    font-weight: bold;
-}
-
 #page2 {
     text-align: center;
     color: #FFFFFF;
@@ -109,7 +90,8 @@ body footer {
 	text-align: center;
 }
 
-#accordion1 .card {
+.Minutes table {
+	align-content: center;
     text-align: center;
     color: #FFFFFF;
     font-variant: small-caps;
@@ -117,18 +99,32 @@ body footer {
     font-size: xx-large;
     border: thick ridge #FFFFFF;
 	background-color: #0056B3;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-#accordion1 .card {
-    text-align: center;
+.General tr td a {
+	text-align: center;
+	font-size: xx-large;
     color: #FFFFFF;
-    font-variant: small-caps;
-    font-weight: bold;
-    font-size: x-large;
+    border-style: ridge;
+    border-width: thick;
+    background-color: #000000;
     border: thick ridge #FFFFFF;
-	background-color: #0056B3;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+	margin-right: 0px;	
 }
+
+button {
+    background: #000000;
+    color: #ffffff;
+    border: thick ridge #FFFFFF;
+    font-variant: small-caps;
+    font-size: x-large;
+    font-weight: bold;
+	align-content: center;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+

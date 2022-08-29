@@ -87,14 +87,6 @@ Website{
     text-align: center;
 }
 
-button {
-    background: #000000;
-    color: #ffffff;
-    border: thick ridge #FFFFFF;
-	text-align: center;
-    align-content: center;
-}
-
 body p {
     text-align: center;
 }
@@ -149,12 +141,7 @@ tbody tr .rightcolumn {
 	margin-right: 100px;
 }
 
-tr td a {
-	background-color: #0056B3;
-    margin-left: 200px;
-    margin-right: 200px;	background-color: #0056B3;
-    margin-left: 200px;
-    margin-right: 200px;.General tr td {
+.General tr td a {
 	text-align: center;
 	font-size: xx-large;
     color: #FFFFFF;
@@ -162,7 +149,12 @@ tr td a {
     border-width: thick;
     background-color: #000000;
     border: thick ridge #FFFFFF;
-}button {
+    margin-left: 100px;
+	margin-right: 0px;	
+
+}
+
+button {
     background: #000000;
     color: #ffffff;
     border: thick ridge #FFFFFF;
@@ -171,40 +163,6 @@ tr td a {
     font-weight: bold;
 	align-content: center;
 	text-align: center;
-}button {
-    background: #000000;
-    color: #ffffff;
-    border: thick ridge #FFFFFF;
-    font-variant: small-caps;
-    font-size: x-large;
-    font-weight: bold;
-	align-content: center;
-	text-align: center;
-}button {
-    background: #000000;
-    color: #ffffff;
-    border: thick ridge #FFFFFF;
-    font-variant: small-caps;
-    font-size: x-large;
-    font-weight: bold;
-	align-content: center;
-	text-align: center;
-}button {
-    background: #000000;
-    color: #ffffff;
-    border: thick ridge #FFFFFF;
-    font-variant: small-caps;
-    font-size: x-large;
-    font-weight: bold;
-	align-content: center;
-	text-align: center;
-}button {
-    background: #000000;
-    color: #ffffff;
-    border: thick ridge #FFFFFF;
-    font-variant: small-caps;
-    font-size: x-large;
-    font-weight: bold;
-	align-content: center;
-	text-align: center;
-}}
+    margin-left: 200px;
+    margin-right: 200px;
+}

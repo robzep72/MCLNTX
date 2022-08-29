@@ -10,10 +10,15 @@
 <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
 <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
 <link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
 <!-- <script src="jQueryAssets/jquery-1.11.1.min.js"></script> -->
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.slider.min.css" rel="stylesheet" type="text/css">
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.slider.min.js"></script>
 </head>
 <body>
 <table width="1250">
@@ -42,62 +47,42 @@
 <br>
 <br>
 <br>
-<section id="Gallery">
-<div id="accordion1" role="tablist">
-<div class="card">
-<div class="card-header body" role="tab" id="headingOne1">
-      <h2 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1">Marine Corps League</a></h2>
-</div>
-<div id="collapseOne1" class="collapse" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
-<div class="card-body">
-<section id="mclgallery">
-	<img src="images/USMC.png" width="200" height="200" alt=""/>
-	<img src="images/MCL Emblem.PNG" width="200" height="200" alt=""/>
-	<img src="images/MCLTX.png" width="200" height="200" alt=""/>
-	<img src="images/NTX862.PNG" width="200" height="200" alt=""/>
-</section>
-</div>
-</div>
-</div>
-<div class="card">
-<div class="card-header body" role="tab" id="headingTwo1">
-      <h2 class="mb-0"> <a data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1">Toys For Tots</a></h2>
-</div>
-<div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
-<div class="card-body">
-<section id="toysgallery">
-	<img src="images/Toys for Tots.PNG" width="200" height="200" alt=""/>
-	<img src="images/Bear - Train.PNG" width="200" height="200" alt=""/>
-	<img src="images/Bear.PNG" width="200" height="200" alt=""/>
-	<img src="images/Santa.PNG" width="200" height="200" alt=""/>
-</section>
-</div>
-</div>
-</div>
-<div class="card">
-<div class="card-header" role="tab" id="headingThree1">
-      <h2 class="mb-0"><a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1">Membership</a></h2>
-</div>
-<div id="collapseThree1" class="collapse" role="tabpanel" aria-labelledby="headingThree1" data-parent="#accordion1">
-<div class="card-body">
-<section id="usmcgallery">
-	<img src="images/USMC.png" width="200" height="200" alt=""/>
-	<img src="images/Navy.png" width="220" height="220" alt=""/>
-	<img src="images/Chaplain.jpg" width="200" height="200" alt=""/>
-	<img src="images/Corpsman.jpg" width="200" height="200" alt=""/>
-	<img src="images/Life.png" width="200" height="200" alt=""/>
-	<img src="images/Auxiliary.png" width="200" height="200" alt=""/>
-	<img src="images/DD 214.png" width="200" height="200" alt=""/>
-	<img src="images/Application.PNG" width="200" height="200" alt=""/>
-	<img src="images/Gen Lejeune.PNG" width="200" height="200" alt=""/>
-	<img src="images/Marines.PNG" width="200" height="200" alt=""/>
-	<img src="images/Salute.PNG" width="200" height="200" alt=""/>
-</section>
-</div>
-</div>
-</div>
-</div>
-</section>
+  <div id="Galleries">
+    <h3><a href="#">Marine Corps League</a></h3>
+    <div>
+      <p>
+	  <img src="images/USMC.png" width="200" height="200" alt=""/>
+	  <img src="images/MCL Emblem.PNG" width="200" height="200" alt=""/>
+	  <img src="images/MCLTX.png" width="200" height="200" alt=""/>
+	  <img src="images/NTX862.PNG" width="200" height="200" alt=""/>
+	  </p>
+    </div>
+    <h3><a href="#">Toys For Tots</a></h3>
+    <div>
+      <p>
+	  <img src="images/Toys for Tots.PNG" width="200" height="200" alt=""/>
+	  <img src="images/Bear - Train.PNG" width="200" height="200" alt=""/>
+	  <img src="images/Bear.PNG" width="200" height="200" alt=""/>
+	  <img src="images/Santa.PNG" width="200" height="200" alt=""/>
+	  </p>
+    </div>
+    <h3><a href="#">Membership</a></h3>
+    <div>
+      <p>
+	  <img src="images/USMC.png" width="200" height="200" alt=""/>
+	  <img src="images/Navy.png" width="220" height="220" alt=""/>
+	  <img src="images/Chaplain.jpg" width="200" height="200" alt=""/>
+	  <img src="images/Corpsman.jpg" width="200" height="200" alt=""/>
+	  <img src="images/Life.png" width="200" height="200" alt=""/>
+	  <img src="images/Auxiliary.png" width="200" height="200" alt=""/>
+	  <img src="images/DD 214.png" width="200" height="200" alt=""/>
+	  <img src="images/Application.PNG" width="200" height="200" alt=""/>
+	  <img src="images/Gen Lejeune.PNG" width="200" height="200" alt=""/>
+	  <img src="images/Marines.PNG" width="200" height="200" alt=""/>
+	  <img src="images/Salute.PNG" width="200" height="200" alt=""/>
+	  </p>
+    </div>
+  </div>
 <br>
 <br>
 <br>
@@ -108,7 +93,8 @@
 <br>
 <br>
 		<p><strong>Want more information? Email us at:</strong><br><br>
-		<a href="commandant@ntxmarines.org">commandant@ntxmarines.org/</a><br> or <br><a href="paymaster@ntxmarines.org">Paymaster@ntxmarines.org/</a></p>
+		<a href="mailto:commandant@ntxmarines.org">commandant@ntxmarines.org</a><br> or <br>
+<a href="mailto:paymaster@ntxmarines.org">paymaster@ntxmarines.org</a></p>
 <br>
 <br>
 <br>
@@ -121,6 +107,18 @@
 $(function() {
 	$( "#Accordion1" ).accordion(); 
 });
-    </script>
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+$(function() {
+	$( "#Slider1" ).slider(); 
+});
+$(function() {
+	$( "#Slider1" ).slider(); 
+});
+$(function() {
+	$( "#Accordion1" ).accordion(); 
+});
+</script>
 </body>
 </html>

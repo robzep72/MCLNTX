@@ -39,7 +39,8 @@ body h3 {
     text-decoration: underline;
     font-weight: bold;
     font-size: xx-large;
-    color: #FFFFFF;
+	color: #FFFFFF;
+	background-color: #000000;
 }
 
 body h4 {
@@ -58,22 +59,6 @@ body h4 {
 	align-content: justify;
 }
 
-#page {
-    text-align: center;
-    color: #FFFFFF;
-    font-variant: small-caps;
-    font-weight: bold;
-	font-size: x-large;
-}
-
-#page1 {
-    text-align: center;
-    color: #FFFFFF;
-    font-variant: small-caps;
-    font-weight: bold;
-	font-size: x-large;
-}
-
 p {
     color: #FFFFFF;
     text-align: center;
@@ -82,12 +67,9 @@ p {
     font-size: x-large;
 }
 
-body footer {
+body,td,th {
     color: #FFFFFF;
-    font-variant: small-caps;
-    font-weight: bold;
-    font-size: 2rem;
-	text-align: center;
+    font-size: large;
 }
 
 .Statements table {
@@ -99,7 +81,7 @@ body footer {
     font-size: xx-large;
     border: thick ridge #FFFFFF;
 	background-color: #0056B3;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-right: 100px;
 }
 
@@ -112,7 +94,7 @@ body footer {
     font-size: xx-large;
     border: thick ridge #FFFFFF;
 	background-color: #0056B3;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-right: 100px;
 }
 

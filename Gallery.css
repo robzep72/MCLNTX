@@ -39,7 +39,7 @@ body nav {
     color: #FFFFFF;
     font-weight: bold;
     font-variant: small-caps;
-    font-size: xx-large;
+    font-size: x-large;
     text-align: center;
 }
 
@@ -77,14 +77,6 @@ body p {
     color: #FFFFFF;
 }
 
-body footer {
-    color: #FFFFFF;
-    font-variant: small-caps;
-    font-weight: bold;
-    font-size: 2rem;
-	text-align: center;
-}
-
 .container {
     overflow: hidden;
     height: 800px;
@@ -109,68 +101,6 @@ body footer {
 	height: 100%;
 }
 
-@-webkit-keyframes slide_animation {
-	0%{left:0px;}
-	10%{left:0px;}
-	20%{left:1200px;}
-	30%{left:1200px;}
-	40%{left:2400px;}
-	50%{left:2400px;}
-	60%{left:1200px;}
-	70%{left:1200px;}
-	80%{left:0px;}
-	90%{left:0px;}
-	100%{left:0px;}
-}
-
-.mclgallery {
-    border-style: ridge;
-    border-width: thick;
-    background-color: #787878;
-    border: thick ridge #FFFFFF;
-	width: 3600px;
-	height: 800px;
-	margin: 0 0 0 -2400px;
-	position: relative;
-	-webkit-animation-name: slide-animation;
-	-webkit-animation-duration: 10s;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-direction: alternate;
-	-webkit-animation-play-state: running;
-}
-
-.toysgallery {
-    border-style: ridge;
-    border-width: thick;
-    background-color: #787878;
-    border: thick ridge #FFFFFF;
-	width: 3600px;
-	height: 800px;
-	margin: 0 0 0 -2400px;
-	position: relative;
-	-webkit-animation-name: slide-animation;
-	-webkit-animation-duration: 10s;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-direction: alternate;
-	-webkit-animation-play-state: running;
-}
-
-.usmcgallery {
-    border-style: ridge;
-    border-width: thick;
-    background-color: #787878;
-    border: thick ridge #FFFFFF;
-	width: 3600px;
-	height: 800px;
-	margin: 0 0 0 -2400px;
-	position: relative;
-	-webkit-animation-name: slide-animation;
-	-webkit-animation-duration: 10s;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-direction: alternate;
-	-webkit-animation-play-state: running;
-}
-
 .image {
 	height: 800px;
 	width: 1200px;
@@ -178,7 +108,7 @@ body footer {
 	float: left;
 }
 
-#Galleries h3 a img:hover {
+#Galleries img:hover {
     width: 300px;
     height: 300px;
     top: 50px;

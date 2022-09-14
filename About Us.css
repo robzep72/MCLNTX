@@ -48,7 +48,9 @@ table tbody td {
 tbody th h2 {
     color: #FFFFFF;
     font-size: xx-large;
-	background-color: #585858;
+    border-style: ridge;
+    border-width: thick;
+	background: #787878;
 }
 
 tbody th h3 {

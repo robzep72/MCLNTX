@@ -11,9 +11,10 @@
 <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
 <link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
 <!-- <script src="jQueryAssets/jquery-1.11.1.min.js"></script> -->
-<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
 <link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
 <link href="jQueryAssets/jquery.ui.slider.min.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
 <script src="jQueryAssets/jquery-1.11.1.min.js"></script>
@@ -47,42 +48,78 @@
 <br>
 <br>
 <br>
+<div id="accordion1" role="tablist">
   <div id="Galleries">
-    <h3><a href="#">Marine Corps League</a></h3>
-    <div>
-      <p>
-	  <img src="images/USMC.png" width="200" height="200" alt=""/>
-	  <img src="images/MCL Emblem.PNG" width="200" height="200" alt=""/>
-	  <img src="images/MCLTX.png" width="200" height="200" alt=""/>
-	  <img src="images/NTX862.PNG" width="200" height="200" alt=""/>
-	  </p>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingOne1">
+      <h3 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1"> Marine Corps League </a> </h3>
     </div>
-    <h3><a href="#">Toys For Tots</a></h3>
-    <div>
-      <p>
-	  <img src="images/Toys for Tots.PNG" width="200" height="200" alt=""/>
-	  <img src="images/Bear - Train.PNG" width="200" height="200" alt=""/>
-	  <img src="images/Bear.PNG" width="200" height="200" alt=""/>
-	  <img src="images/Santa.PNG" width="200" height="200" alt=""/>
-	  </p>
-    </div>
-    <h3><a href="#">Membership</a></h3>
-    <div>
-      <p>
-	  <img src="images/USMC.png" width="200" height="200" alt=""/>
-	  <img src="images/Navy.png" width="220" height="220" alt=""/>
-	  <img src="images/Chaplain.jpg" width="200" height="200" alt=""/>
-	  <img src="images/Corpsman.jpg" width="200" height="200" alt=""/>
-	  <img src="images/Life.png" width="200" height="200" alt=""/>
-	  <img src="images/Auxiliary.png" width="200" height="200" alt=""/>
-	  <img src="images/DD 214.png" width="200" height="200" alt=""/>
-	  <img src="images/Application.PNG" width="200" height="200" alt=""/>
-	  <img src="images/Gen Lejeune.PNG" width="200" height="200" alt=""/>
-	  <img src="images/Marines.PNG" width="200" height="200" alt=""/>
-	  <img src="images/Salute.PNG" width="200" height="200" alt=""/>
-	  </p>
+    <div id="collapseOne1" class="collapse" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+      <div class="card-body">
+  <table width="1100">
+  <tbody>
+    <tr>
+      <td><img src="images/USMC.png" width="200" height="200" alt=""/></td>
+	  <td><img src="images/MCL Emblem.PNG" width="200" height="200" alt=""/></td>
+	  <td><img src="images/MCLTX.png" width="200" height="200" alt=""/></td>
+	  <td><img src="images/NTX862.PNG" width="200" height="200" alt=""/></td>
+	</tr>
+  </tbody>
+</table>
+	  </div>
     </div>
   </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingTwo1">
+      <h3 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1"> Toys For Tots </a> </h3>
+    </div>
+    <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
+      <div class="card-body">
+  <table width="1100">
+  <tbody>
+    <tr>
+	  	  <td><img src="images/Toys for Tots.PNG" width="200" height="200" alt=""/></td>
+		  <td><img src="images/Bear - Train.PNG" width="200" height="200" alt=""/></td>
+		  <td><img src="images/Bear.PNG" width="200" height="200" alt=""/></td>
+		  <td><img src="images/Santa.PNG" width="200" height="200" alt=""/></td>
+	</tr>
+  </tbody>
+</table>
+	  </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingThree1">
+      <h3 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1"> Membership </a> </h3>
+    </div>
+    <div id="collapseThree1" class="collapse" role="tabpanel" aria-labelledby="headingThree1" data-parent="#accordion1">
+      <div class="card-body">
+  <table width="1100">
+  <tbody>
+    <tr>
+		  <td><img src="images/USMC.png" width="200" height="200" alt=""/></td>
+		  <td><img src="images/Navy.png" width="220" height="220" alt=""/></td>
+		  <td><img src="images/Chaplain.jpg" width="200" height="200" alt=""/></td>
+		  <td><img src="images/Corpsman.jpg" width="200" height="200" alt=""/></td>
+	</tr>
+	<tr>
+		  <td><img src="images/Life.png" width="200" height="200" alt=""/></td>
+		  <td><img src="images/Auxiliary.png" width="200" height="200" alt=""/></td>
+		  <td><img src="images/DD 214.png" width="200" height="200" alt=""/></td>
+		  <td><img src="images/Application.PNG" width="200" height="200" alt=""/></td>
+	</tr>
+	<tr>
+		  <td><img src="images/Gen Lejeune.PNG" width="200" height="200" alt=""/></td>
+		  <td><img src="images/Marines.PNG" width="200" height="200" alt=""/></td>
+		  <td><img src="images/Salute.PNG" width="200" height="200" alt=""/></td>
+	</tr>
+  </tbody>
+</table>
+	  </div>
+    </div>
+  </div>
+</div>
+</div>
 <br>
 <br>
 <br>
@@ -115,6 +152,9 @@ $(function() {
 });
 $(function() {
 	$( "#Slider1" ).slider(); 
+});
+$(function() {
+	$( "#Accordion1" ).accordion(); 
 });
 $(function() {
 	$( "#Accordion1" ).accordion(); 

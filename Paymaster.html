@@ -2,9 +2,19 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Paymaster</title>
 <link href="Paymaster.css" rel="stylesheet" type="text/css">
 <link href="Website.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
 </head>
 <body>
 <table width="1250">
@@ -46,36 +56,18 @@
 		<h2>Bank Statement</h2>
 <br>
 <br>
-<div class="Statements">
-	<h3>Fiscal Year 2021</h3>
-<table width="1100">
+<div id="accordion2" role="tablist">
+  <div class="Statements">
+  <div class="card">
+  <div class="card-header" role="tab" id="headingOne2">
+      <h3 class="mb-0"> <a data-toggle="collapse" href="#collapseOne2" role="button" aria-expanded="true" aria-controls="collapseOne2"> Fiscal Year 2021 </a> </h3>
+    </div>
+    <div id="collapseOne2" class="collapse" role="tabpanel" aria-labelledby="headingOne2" data-parent="#accordion2">
+      <div class="card-body">
+  <table width="1100">
   <tbody>
     <tr>
-      <td>
-
-	  </td>
-      <td>
-
-	  </td>
-      <td>
-
-	  </td>
-    </tr>
-    <tr>
-      <td>
-
-	  </td>
-      <td>
-
-	  </td>
-      <td>
-
-	  </td>
-    </tr>
-    <tr>
-      <td>
-
-	  </td>
+      <td></td>
       <td>
 		  <p><button id="Button"><a href="Statements\2021\DATCU Feb2021.pdf" title="February Bank Statement" target="new">February 2021<br>Bank Statement</a></button></p>
 	  </td>
@@ -96,12 +88,17 @@
     </tr>
   </tbody>
 </table>
-</div>
+	</div>
+    </div>
+  </div>
 <br>
-<br>
-<div class="Statements">
-	<h3>Fiscal Year 2022</h3>
-<table width="1100">
+  <div class="card">
+    <div class="card-header" role="tab" id="headingTwo2">
+      <h3 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo2" role="button" aria-expanded="false" aria-controls="collapseTwo2"> Fiscal Year 2022 </a> </h3>
+    </div>
+    <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2" data-parent="#accordion2">
+      <div class="card-body">
+  <table width="1100">
   <tbody>
     <tr>
       <td>
@@ -129,79 +126,29 @@
       <td>
 		  <p><button id="Button"><a href="Statements\2022\DATCU Jan2022.pdf" title="January Bank Statement" target="new">January 2022<br>Bank Statement</a></button></p>
 	  </td>
-      <td>
-
-	  </td>
-      <td>
-
-	  </td>
-    </tr>
-    <tr>
-      <td>
-
-	  </td>
-      <td>
-
-	  </td>
-      <td>
-
-	  </td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
-</div>
+	  </div>
+    </div>
+  </div>
 <br>
-<br>
-<div class="Statements">
-	<h3>Fiscal Year 2023</h3>
-<table width="1100">
+  <div class="card">
+    <div class="card-header" role="tab" id="headingThree2">
+      <h3 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree2" role="button" aria-expanded="false" aria-controls="collapseThree2"> Fiscal Year 2023 </a> </h3>
+    </div>
+    <div id="collapseThree2" class="collapse" role="tabpanel" aria-labelledby="headingThree2" data-parent="#accordion2">
+      <div class="card-body">
+  <table width="1100">
   <tbody>
-    <tr>
-      <td>
-
-	  </td>
-      <td>
-
-	  </td>
-      <td>
-
-	  </td>
-    </tr>
-    <tr>
-      <td>
-
-	  </td>
-      <td>
-
-	  </td>
-      <td>
-
-	  </td>
-    </tr>
-    <tr>
-      <td>
-
-	  </td>
-      <td>
-
-	  </td>
-      <td>
-
-	  </td>
-    </tr>
-    <tr>
-      <td>
-
-	  </td>
-      <td>
-
-	  </td>
-      <td>
-
-	  </td>
-    </tr>
   </tbody>
 </table>
+	  </div>
+    </div>
+  </div>
+</div>
 </div>
 <br>
 <br>
@@ -215,9 +162,15 @@
 		<h2>Financial Reports</h2>
 <br>
 <br>
-<div class="Financials">
-	<h3>Fiscal Year 2020</h3>
-<table width="1100">
+<div id="accordion3" role="tablist">
+  <div class="Financials">
+  <div class="card">
+    <div class="card-header" role="tab" id="headingOne3">
+      <h3 class="mb-0"> <a data-toggle="collapse" href="#collapseOne3" role="button" aria-expanded="true" aria-controls="collapseOne3"> Fiscal Year 2020 </a> </h3>
+    </div>
+    <div id="collapseOne3" class="collapse" role="tabpanel" aria-labelledby="headingOne3" data-parent="#accordion3">
+      <div class="card-body">
+  <table width="1100">
   <tbody>
     <tr>
       <td>
@@ -226,11 +179,16 @@
     </tr>
   </tbody>
 </table>
-</div>
-<br>
-<div class="Financials">
-	<h3>Fiscal Year 2021</h3>
-<table width="1100">
+	  </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingTwo3">
+      <h3 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo3" role="button" aria-expanded="false" aria-controls="collapseTwo3"> Fiscal Year 2021 </a> </h3>
+    </div>
+    <div id="collapseTwo3" class="collapse" role="tabpanel" aria-labelledby="headingTwo3" data-parent="#accordion3">
+      <div class="card-body">
+  <table width="1100">
   <tbody>
     <tr>
       <td>
@@ -239,12 +197,16 @@
     </tr>
   </tbody>
 </table>
-</div>
-<br>
-<br>
-<div class="Financials">
-	<h3>Fiscal Year 2022</h3>
-<table width="1100">
+	  </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingThree3">
+      <h3 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree3" role="button" aria-expanded="false" aria-controls="collapseThree3"> Fiscal Year 2022 </a> </h3>
+    </div>
+    <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3" data-parent="#accordion3">
+      <div class="card-body">
+  <table width="1100">
   <tbody>
     <tr>
       <td>
@@ -268,35 +230,17 @@
 		<p><button id="Button"><a href="Financial Reporting\FY22\Dec21 Finance Summary.pdf" title="December 2021 Financial Report" target="new">December 2021<br>Financial Report</a></button></p>
 	  </td>
     </tr>
-    <tr>
-      <td>
-
-	  </td>
-      <td>
-
-	  </td>
-      <td>
-
-	  </td>
-    </tr>
-    <tr>
-      <td>
-
-	  </td>
-      <td>
-
-	  </td>
-      <td>
-
-	  </td>
-    </tr>
   </tbody>
 </table>
+	  </div>
+    </div>
+  </div>
+</div>
 </div>
 <br>
 <br>
 <br>
-<div id="Page1">
+<div id="Page">
 	<p><a href="#top"><strong>Back to Top</strong></a></p>
 </div>
 <br>
@@ -310,6 +254,7 @@
 <footer>
 	<span id="footer">&copy; 2022 Marine Corps League North Texas Detachment #862</span></footer>
 <script src="js/popper.min.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/bootstrap-4.4.1.js"></script>
 </body>
 </html>
